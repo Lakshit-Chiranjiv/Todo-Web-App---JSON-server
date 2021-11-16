@@ -12,13 +12,20 @@
 
 body{
     background-color: #737373;
-    
+    height: 200vh;    
 }
+
+a{
+    text-decoration: none;
+}
+
 header{
     height: 100px;
     text-align: center;
     color: white;
     background-color: #4d4d4d;
+    position: sticky;
+    top: 0;
 }
 
 header h1{
