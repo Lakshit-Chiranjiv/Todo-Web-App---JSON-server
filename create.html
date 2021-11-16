@@ -4,17 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/fa-css/all.min.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/style2.css">
     <title>Todo Application</title>
 </head>
 <body>
-    <h1>Add a New Task</h1>
+    <header>
+      <h1>TODO WEB APP</h1>
+      <i class="fas fa-3x fa-pen"></i>
+    </header> 
 
-    <form>
-      <input type="text" name="title" required placeholder="Blog title">
-      <textarea name="body" required placeholder="Blog body"></textarea>
-      <button>Create</button>
-    </form>
+    <section class="add-task-section">
+        <div class="add-task">
+            <h1>Add a New Task</h1>
+
+            <form>
+              <input type="text" name="title" required placeholder="Task title">
+              <textarea name="body" required placeholder="Task body"></textarea>
+              <button>ADD TASK</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+
+    </footer>
   
-    <script src="js/create.js"></script>
+    <script src="js/main2.js"></script>
 </body>
 </html>
