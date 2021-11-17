@@ -42,4 +42,56 @@
     color: white;
     text-align: center;
     font-size: 42px;
+    margin-bottom: 60px;
+}
+
+.task-list hr{
+    display: block;
+    margin: 0 auto;
+    max-width: 30%;
+}
+
+
+.task-list #tasks{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.task-list #tasks .single-task{
+    /* background-color: green; */
+    margin: 30px 40px;
+    padding: 30px;
+    text-align: left;
+    min-width: 38.5%;
+    flex: 0 0 38.5%;
+    position: relative;
+    z-index: -2;
+    border-radius: 10px;
+    box-shadow: 10px 10px 9px -6px rgba(20,20,20,0.5);
+    -webkit-box-shadow: 10px 10px 9px -6px rgba(20,20,20,0.5);
+    -moz-box-shadow: 10px 10px 9px -6px rgba(20,20,20,0.5);
+
+
+}
+
+.task-list #tasks .single-task h2{
+    text-transform: capitalize;
+    margin: 8px 0;
+}
+
+.task-list #tasks .single-task button{
+    height: 30px;
+    width: 100px;
+    margin: 8px 0;
+}
+
+
+.task-list #tasks .single-task a{
+    color: red;
+}
+
+.task-list #tasks .single-task i{
+    position: absolute;
+    right: 4%;
+    bottom: 10%;
 }
